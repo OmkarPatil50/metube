@@ -23,8 +23,14 @@
 }
 
 .fa-bars {
-  margin: 0 20px;
+  padding: 10px;
+  margin: 10px;
   font-size: 26px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.fa-bars:hover {
+  background-color: var(--yt-spec-static-brand-black);
 }
 
 .top-bar-app-info i {
