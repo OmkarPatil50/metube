@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# MeTube
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The MeTube is a user-friendly platform for streaming and managing videos. This README provides an overview of the key features of the application.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+### Home Page
 
-### `npm start`
+- The landing page displays a list of categories.
+- Clicking on a category redirects users to the video list page with the selected category.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Video Listing Page
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- The video listing page shows a list of videos.
+- Each video card includes a "Watch Later" button that allows users to add or remove videos from their watch later list.
+- Video views and author names are displayed for each video.
+- User data, including the watch later list, persists on page reload.
 
-### `npm test`
+### Playlist Management
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- The sidebar provides access to the user's playlists, where all created playlists are listed with their names and associated videos.
+- On the playlist page, users can:
+  - Create a new playlist
+  - Delete an existing playlist
+  - Remove a video from a particular playlist
+- Playlist and video data persist on page reload.
 
-### `npm run build`
+### Watch Later Page
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Users can add or remove videos to/from their watch later list from the video listing page or the single video page.
+- Data on the watch later page persists on page reload.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Search Video
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Users can search for videos by title from the Explore Page.
+- The Explore Page lists all available videos.
 
-### `npm run eject`
+### Single Video Page
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Clicking on a video thumbnail redirects users to a single video page where they can:
+  - Save the video to a playlist
+  - Create and manage playlists
+  - Add or remove the video to/from the watch later list
+  - Add and manage notes for the video
+- Video, playlist, and notes data persist on page reload.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Notes on a Video
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Users can save, edit, update, and delete notes for a video from the particular video page.
+- Notes are saved on a per-video basis and persist on page reload.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
